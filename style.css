@@ -1,15 +1,32 @@
-p {
-    font-family: serif;
-    line-height: 1.75em;
-    }
-    i {
-        font-family: sans;
-    color: orange;
-    }
-    h2 {
-        font-family: sans;
-        color: blue;
-    }
-    .head2 {
-        color: red;
-    }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+section {
+    padding: 50px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+} 
